@@ -1,0 +1,245 @@
+.net
+adventure
+adventure traveler
+advertising
+agile
+algorithmic game theory
+algorithms
+alliances
+analytics
+android
+ansys
+apple aperture
+apple remote desktop
+assembly
+audio
+b2b
+business intelligence
+business modeling
+business objects
+c
+c#
+c++
+cad
+channel
+chrome
+cinema 4d
+closure
+cocoa
+coffeescript
+computer hardware
+computer science
+conferences
+consumer electronics
+cross-functional team leadership
+cryptography
+css
+curriculum design
+data analysis
+data manipulation
+data mining
+data visualization
+data warehousing
+database design
+databases
+debugging
+design for manufacturing
+design patterns
+device drivers
+digital media
+directx
+distributed systems
+django
+documentary photography
+editing
+elementary
+email encryption
+email security
+embedded graphics
+encryption
+engineering
+engineering management
+enterprise software
+etl
+event organizer
+excel
+executive communications
+failure analysis
+final cut pro
+firmware
+game development
+game programming
+game theory
+globalization
+gmail
+go-to-market strategy
+google adwords
+google app engine
+google docs
+graphic design
+gui development
+guice
+gwt
+hadoop
+hardware
+hlsl
+html
+html + css
+html5
+human-computer interaction
+idvd
+illustrator
+information architecture
+information design
+information retrieval
+information visualization
+injection molding
+integration
+interaction design
+ios
+ios development
+ip pbx
+iphone
+iphoto
+itunes
+java
+javascript
+jquery
+languages
+latex
+linux
+localization
+mac desktop tech support
+mac os
+mac os x
+mac os x server
+machine learning
+mandarin
+manufacturing
+manufacturing management
+mapreduce
+market research
+marketing communications
+marketing strategy
+mathematics
+matlab
+mentoring
+microsoft office
+mobile
+mobile applications
+mobile internet
+mobile software
+mobile technology
+monetization
+multimedia
+mysql
+natural language processing
+natural language understanding
+negotiation
+node.js
+non-profits
+objective-c
+odm
+oem
+online advertising
+online marketing
+opengl
+pbx
+people management
+performance testing
+performance tuning
+perl
+pgp
+photoshop
+php
+planning
+policy analysis
+postgresql
+presenter
+problem solving
+process development
+product design
+product development
+product engineering
+product management
+product marketing
+product strategy
+program management
+programming
+prototyping
+public relations
+public speaking
+publications
+python
+quality assurance
+quicktime
+r&d
+regression testing
+reliability engineering
+robotics
+ruby on rails
+scrum
+search advertising
+search algorithms
+sem
+sip
+sip trunking
+skia
+skype
+social media
+social media marketing
+software design
+software development
+software engineering
+software project management
+speech recognition
+sql
+sql server
+sqlite
+start-ups
+strategy development
+supply chain management
+system architecture
+teaching
+team building
+team leadership
+technical leadership
+telephony
+telepresence
+test automation
+test planning
+testing
+text analytics
+text classification
+text mining
+thunderbird
+ubiquitous computing
+uc
+unified communications
+unified messaging
+unigraphics
+unit testing
+unix administration
+unreal engine 3
+usability
+usability engineering
+usability testing
+user experience
+user interface design
+vendor relations
+venture capital
+verilog
+vhdl
+video
+video conferencing
+video games
+voip
+web analytics
+web development
+windows
+writing
+x86 assembly
+xml
+xsan
+xslt
+???????

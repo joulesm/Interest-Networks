@@ -1,0 +1,96 @@
+{
+    "links": [
+        {
+            "source": 0, 
+            "target": 1, 
+            "value": 0.19245008972987526
+        }, 
+        {
+            "source": 3, 
+            "target": 4, 
+            "value": 0.408248290463863
+        }, 
+        {
+            "source": 2, 
+            "target": 0, 
+            "value": 0.0
+        }, 
+        {
+            "source": 5, 
+            "target": 3, 
+            "value": 0.408248290463863
+        }, 
+        {
+            "source": 7, 
+            "target": 1, 
+            "value": 0.1111111111111111
+        }, 
+        {
+            "source": 9, 
+            "target": 8, 
+            "value": 0.0
+        }, 
+        {
+            "source": 2, 
+            "target": 8, 
+            "value": 0.0
+        }, 
+        {
+            "source": 6, 
+            "target": 4, 
+            "value": 0.0
+        }
+    ], 
+    "nodes": [
+        {
+            "group": 1, 
+            "name": "golf", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "mountain biking", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "fishing", 
+            "size": 5
+        }, 
+        {
+            "group": 7, 
+            "name": "professional networking", 
+            "size": 5
+        }, 
+        {
+            "group": 7, 
+            "name": "strategic planning", 
+            "size": 5
+        }, 
+        {
+            "group": 9, 
+            "name": "international travel", 
+            "size": 5
+        }, 
+        {
+            "group": 3, 
+            "name": "photography", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "basketball", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "swimming", 
+            "size": 5
+        }, 
+        {
+            "group": 4, 
+            "name": "music", 
+            "size": 5
+        }
+    ]
+}

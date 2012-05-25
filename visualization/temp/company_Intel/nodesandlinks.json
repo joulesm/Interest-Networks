@@ -1,0 +1,116 @@
+{
+    "links": [
+        {
+            "source": 0, 
+            "target": 1, 
+            "value": 0.45226701686664544
+        }, 
+        {
+            "source": 2, 
+            "target": 3, 
+            "value": 0.5757575757575758
+        }, 
+        {
+            "source": 0, 
+            "target": 3, 
+            "value": 0.10050378152592121
+        }, 
+        {
+            "source": 4, 
+            "target": 5, 
+            "value": 0.055048188256318034
+        }, 
+        {
+            "source": 4, 
+            "target": 6, 
+            "value": 0.055048188256318034
+        }, 
+        {
+            "source": 5, 
+            "target": 1, 
+            "value": 0.055048188256318034
+        }, 
+        {
+            "source": 7, 
+            "target": 6, 
+            "value": 0.055048188256318034
+        }, 
+        {
+            "source": 5, 
+            "target": 3, 
+            "value": 0.055048188256318034
+        }, 
+        {
+            "source": 3, 
+            "target": 1, 
+            "value": 0.15151515151515152
+        }, 
+        {
+            "source": 8, 
+            "target": 1, 
+            "value": 0.15151515151515152
+        }, 
+        {
+            "source": 2, 
+            "target": 1, 
+            "value": 0.15151515151515152
+        }, 
+        {
+            "source": 2, 
+            "target": 5, 
+            "value": 0.055048188256318034
+        }, 
+        {
+            "source": 6, 
+            "target": 8, 
+            "value": 0.055048188256318034
+        }
+    ], 
+    "nodes": [
+        {
+            "group": 3, 
+            "name": "reading", 
+            "size": 5
+        }, 
+        {
+            "group": 9, 
+            "name": "traveling", 
+            "size": 5
+        }, 
+        {
+            "group": 7, 
+            "name": "management training", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "tennis", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "running", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "skiing", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "snowboarding", 
+            "size": 5
+        }, 
+        {
+            "group": 14, 
+            "name": "family", 
+            "size": 5
+        }, 
+        {
+            "group": 1, 
+            "name": "soccer", 
+            "size": 5
+        }
+    ]
+}

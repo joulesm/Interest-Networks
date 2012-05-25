@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Human Interest Space</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/css/jqModal.css">
+    <script type="text/javascript" src="lib/jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="lib/js/jqModal.js"></script>
+    <script type="text/javascript" src="lib/d3/d3.js"></script>
+    <script type="text/javascript" src="lib/d3/d3.layout.js"></script>
+    <script type="text/javascript" src="lib/d3/d3.geom.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/plugins/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/plugins/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="lib/js/onLoad.js"></script>
+</head>
+<body style="background-color:#FFFFFF">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#">The Human Interest Space - An Interactive Visualization</a>
+                <form class="navbar-search pull-left" id="searchform">
+                    <input type="text" id="search" data-provide="typeahead" class="search-query" placeholder="Search for interests" />
+                </form>
+                <ul class="nav">
+                    <li class="dropdown">
+                        <a href="#" 
+                            class="dropdown-toggle" 
+                            data-toggle="dropdown">
+                            Need Help?
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" id="showprojectinfo"><i class="icon-info-sign"></i> Project Information</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#" id="showlegend"><i class="icon-picture"></i> Graph Legend</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="jqmWindow" id="projectinfo">
+    <h2><center>The Human Interest Space</center></h2>
+    <hr />
+    <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How are people's interests related? By exploring people's interests from LinkedIn profiles, we have created an interest graph to understand these relationships. The graph nodes are interests (hiking, photography, design), color-coded by category. Links between nodes appear when interests co-occur in multiple profiles. By looking at the graph, we can see which interests are more commonly shared among people, and whether these interests are in the same category (that is, similar to each other). This allows us to form hypotheses about how and why certain interests co-occur more often than others, and measure the diversity of a person's interests.
+    </p>
+    <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go ahead and check it out! You can fully interact with the nodes and links represented on this graph. Try doing the following:
+    <ul>
+        <li><b>Mouseover</b> a node to see what it interest it represents and what interests are immediately adjacent to it.</li> 
+        <li><b>Click and drag</b> to play with the physics engine holding the nodes and edges together.</li>
+        <li><b>Pan and zoom</b> with the graph by clicking and dragging the background and scrolling up and down the trackpad, respectively.</li>
+        <li><b>Search</b> for interests using the auto-completing search bar at the top.</li>
+        <li><b>Check out</b> the map legend under "Need Help?" -> "Graph Legend".</li>
+    </ul>
+    </p>
+    <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For starters, check out how people's recreational interests (basketball, soccer) are clumped separately from people's more professional interests (professional networking, innovation).
+    </p>
+    <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>If anything breaks, just refresh the page by pressing CMD+R to reset the visualization.</i>
+    </p>
+    <hr />
+    <p style="text-align:right;"><a href="#" class="jqmClose">Close</a></p>
+    </div>
+
+    <div class="jqmWindow" id="legend">
+    <h2><center>What Represents What?</center></h2>
+    <hr />
+    <h3>Categories:</h3>
+    <table border="0">
+    <tr>
+    <th style="text-align:left" width="250" >
+        <img src="lib/img/game.png" style="vertical-align:middle" /> Sports/Recreation <br />
+        <img src="lib/img/art.png" style="vertical-align:middle" /> Art <br />
+        <img src="lib/img/music.png" style="vertical-align:middle" /> Music <br />
+        <img src="lib/img/learning.png" style="vertical-align:middle" /> Learning <br />
+        <img src="lib/img/movies.png" style="vertical-align:middle" /> Movies <br />
+        <img src="lib/img/business.png" style="vertical-align:middle" /> Business <br />
+        <img src="lib/img/food.png" style="vertical-align:middle" /> Food <br />
+    </th>
+    <th style="text-align:left" width="250">
+        <img src="lib/img/travel.png" style="vertical-align:middle" /> Travel <br />
+        <img src="lib/img/technology.png" style="vertical-align:middle" /> Technology <br />
+        <img src="lib/img/language.png" style="vertical-align:middle" /> Language <br />
+        <img src="lib/img/people.png" style="vertical-align:middle" /> People <br />
+        <img src="lib/img/finance.png" style="vertical-align:middle" /> Finance <br />
+        <img src="lib/img/health.png" style="vertical-align:middle" /> Health <br />
+        <img src="lib/img/fun.png" style="vertical-align:middle" /> Fun <br />
+    </th>
+    </tr>
+    </table>
+    <h3>Nodes and Links:</h3>
+    <p>
+        <b>Size of a node/interest</b> represents how popular of an interest it is. The more times this specific interest was listed, the more popular it is.
+    </p>
+    <p>
+        <b>Width and length of a link</b> represents how strong of a relation the two adjacent interests have. The stronger the relation (the more likely they were to co-occur), the shorter and wider the link will be.
+    </p>
+    <hr />
+    <p style="text-align:right;"><a href="#" class="jqmClose">Close</a></p>
+    </div>
+
+
+
+    <div id="canvas"></div>
+    
+    <script type="text/javascript" src="lib/js/drawing.js"></script>
+</body>
+</html>
